@@ -1,7 +1,5 @@
 // Turn this function into an arrow function
-function arrow() {
-  return "es6 is awesome!";
-}
+function arrow() => {return "es6 is awesome!";}
 
 //Use the es6 syntax for default parameter
 function defaultParameter(name) {
