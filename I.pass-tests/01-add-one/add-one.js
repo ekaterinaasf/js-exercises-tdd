@@ -1,6 +1,7 @@
 module.exports = function(numbers) {
+  let rez = numbers.slice();
   for (let i = 0; i < numbers.length; i++) {
-    numbers[i] += 1;
+    rez[i] += 1;
   }
-  return numbers;
+  return rez;
 };

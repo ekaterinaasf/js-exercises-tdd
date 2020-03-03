@@ -1,4 +1,5 @@
-function sales(obj) {
+//var sales = function(obj) {
+module.exports = function(obj) {
   var rez = {};
   let prop;
   for (let i in obj) {
@@ -10,9 +11,9 @@ function sales(obj) {
     }
   }
   return rez;
-}
+};
 
-var carsSold = [
+/*var carsSold = [
   { make: "Ford", model: "Fiesta", colour: "Red", price: 5999 },
   { make: "Land Rover", model: "Defender", colour: "Muddy", price: 12000 },
   { make: "Toyota", model: "Prius", colour: "Silver", price: 6500 },
@@ -22,4 +23,4 @@ var carsSold = [
   { make: "Ford", model: "Fiesta", colour: "Green", price: 2000 }
 ];
 
-console.log(sales(carsSold));
+console.log(sales(carsSold)); */
